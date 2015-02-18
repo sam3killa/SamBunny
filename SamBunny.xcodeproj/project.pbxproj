@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A994A361A8FDC1100780AFA /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A994A351A8FDC1100780AFA /* LoginScreenViewController.swift */; };
 		8AD19EF21A8DBDE0002CED25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD19EF11A8DBDE0002CED25 /* AppDelegate.swift */; };
 		8AD19EF41A8DBDE0002CED25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD19EF31A8DBDE0002CED25 /* ViewController.swift */; };
 		8AD19EF71A8DBDE0002CED25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD19EF51A8DBDE0002CED25 /* Main.storyboard */; };
 		8AD19EF91A8DBDE0002CED25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD19EF81A8DBDE0002CED25 /* Images.xcassets */; };
 		8AD19EFC1A8DBDE0002CED25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD19EFA1A8DBDE0002CED25 /* LaunchScreen.xib */; };
 		8AD19F081A8DBDE0002CED25 /* SamBunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD19F071A8DBDE0002CED25 /* SamBunnyTests.swift */; };
+		8AD19F141A8DBE7F002CED25 /* RabbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD19F131A8DBE7F002CED25 /* RabbitViewController.swift */; };
+		8AD19F161A8DC584002CED25 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD19F151A8DC584002CED25 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A994A351A8FDC1100780AFA /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		8AD19EEC1A8DBDE0002CED25 /* SamBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD19EF01A8DBDE0002CED25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AD19EF11A8DBDE0002CED25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		8AD19F011A8DBDE0002CED25 /* SamBunnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamBunnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD19F061A8DBDE0002CED25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AD19F071A8DBDE0002CED25 /* SamBunnyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamBunnyTests.swift; sourceTree = "<group>"; };
+		8AD19F131A8DBE7F002CED25 /* RabbitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RabbitViewController.swift; sourceTree = "<group>"; };
+		8AD19F151A8DC584002CED25 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +83,12 @@
 		8AD19EEE1A8DBDE0002CED25 /* SamBunny */ = {
 			isa = PBXGroup;
 			children = (
+				8AD19F151A8DC584002CED25 /* Common.swift */,
 				8AD19EF11A8DBDE0002CED25 /* AppDelegate.swift */,
 				8AD19EF31A8DBDE0002CED25 /* ViewController.swift */,
 				8AD19EF51A8DBDE0002CED25 /* Main.storyboard */,
+				8A994A351A8FDC1100780AFA /* LoginScreenViewController.swift */,
+				8AD19F131A8DBE7F002CED25 /* RabbitViewController.swift */,
 				8AD19EF81A8DBDE0002CED25 /* Images.xcassets */,
 				8AD19EFA1A8DBDE0002CED25 /* LaunchScreen.xib */,
 				8AD19EEF1A8DBDE0002CED25 /* Supporting Files */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD19F161A8DC584002CED25 /* Common.swift in Sources */,
+				8AD19F141A8DBE7F002CED25 /* RabbitViewController.swift in Sources */,
 				8AD19EF41A8DBDE0002CED25 /* ViewController.swift in Sources */,
+				8A994A361A8FDC1100780AFA /* LoginScreenViewController.swift in Sources */,
 				8AD19EF21A8DBDE0002CED25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				8AD19F0D1A8DBDE0002CED25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AD19F0E1A8DBDE0002CED25 /* Build configuration list for PBXNativeTarget "SamBunnyTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				8AD19F101A8DBDE0002CED25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
